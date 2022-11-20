@@ -1,0 +1,100 @@
+[
+    {
+        "model":"book_service.book",
+        "pk":1,
+        "fields":{
+                "title": "Reminders of Him : A Novel",
+                "author": "Colleen Hoover",
+                "description":"A troubled young mother yearns for a shot at redemption in this heartbreaking yet hopeful story from #1 New York Times bestselling author Colleen Hoover.\nAfter serving five years in prison for a tragic mistake, Kenna Rowan returns to the town where it all went wrong, hoping to reunite with her four-year-old daughter. But the bridges Kenna burned are proving impossible to rebuild. Everyone in her daughter's life is determined to shut Kenna out, no matter how hard she works to prove herself.\nThe only person who hasn't closed the door on her completely is Ledger Ward, a local bar owner and one of the few remaining links to Kenna's daughter. But if anyone were to discover how Ledger is slowly becoming an important part of Kenna's life, both would risk losing the trust of everyone important to them.\n",
+                "year_of_publication":"2022-01-25",
+                "isAvailable": true,
+                "count":5
+            }
+    },
+
+    {
+        "model":"book_service.book",
+        "pk":2,
+        "fields":{
+                "title": "The Girl Next Door",
+                "author": "Dot Hutchison",
+                "description":"An Amazon Charts bestseller.\nNear an isolated mansion lies a beautiful garden.\nIn this garden grow luscious flowers, shady trees...and a collection of precious butterflies-young women who have been kidnapped and intricately tattooed to resemble their namesakes. Overseeing it all is the Gardener, a brutal, twisted man obsessed with capturing and preserving his lovely specimens.\nWhen the garden is discovered, a survivor is brought in for questioning. FBI agents Victor Hanoverian and Brandon Eddison are tasked with piecing together one of the most stomach-churning cases of their careers. But the girl, known only as Maya, proves to be a puzzle herself.\n",
+                "year_of_publication":"2016-06-01",
+                "isAvailable": true,
+                "count":3
+            }
+    },
+    {
+        "model":"book_service.book",
+        "pk":3,
+        "fields":{
+                "title": "The Paper Magician",
+                "author": "Charlie N. Holmberg",
+                "description":"Charlie is a vibrant writer with an excellent voice and great world building. I thoroughly enjoyed the Paper Magician. -Brandon Sanderson, author of Mistborn and The Way of Kings\nCeony Twill arrives at the cottage of Magician Emery Thane with a broken heart. Having graduated at the top of her class from the Tagis Praff School for the Magically Inclined, Ceony is assigned an apprenticeship in paper magic despite her dreams of bespelling metal. And once she's bonded to paper, that will be her only magic...forever.\nYet the spells Ceony learns under the strange yet kind Thane turn out to be more marvelous than she could have ever imagined-animating paper creatures, bringing stories to life via ghostly images, even reading fortunes. But as she discovers these wonders, Ceony also learns of the extraordinary dangers of forbidden magic.\n",
+                "year_of_publication":"2014-09-01",
+                "isAvailable": true,
+                "count":1
+            }
+    },
+    {
+        "model":"book_service.book",
+        "pk":4,
+        "fields":{
+                "title": "Six Years",
+                "author": "Harlan Coben",
+                "description":"A lost love... and the secrets and lies at its heart. The stunning novel from No.1 bestseller Harlan Coben.\nSix years have passed since Jake Fisher watched Natalie, the love of his life, marry another man. Six years of hiding a broken heart by throwing himself into his career. Six years of keeping his promise to leave Natalie alone, and six years of tortured dreams of her life with her new husband, Todd.\nBut six years haven't come close to extinguishing his feelings, and when Jake comes across Todd's obituary, he can't keep himself away from the funeral. There he gets the glimpse of Todd's wife he's hoping for... but she is not Natalie - and Jake's world is turned completely inside out.\nAs Jake searches for the truth, his picture-perfect memories of Natalie begin to unravel. Mutual friends of the couple either can't be found or don't remember Jake. No one has seen Natalie in years. Jake's search for the woman who broke his heart - and who lied to him\n",
+                "year_of_publication":"2014-02-27",
+                "isAvailable": true,
+                "count":2
+            }
+    },
+    {
+        "model":"book_service.book",
+        "pk":5,
+        "fields":{
+                "title": "Roald Dahl's Marvellous Joke Book",
+                "author": "Roald Dahl",
+                "description":"Which famous writer goes best with a hot dog? Roll Dahl of course!\nLaugh yourself silly with Roald Dahl's Marvellous Joke Book, filled with over 400 hilarious jokes, limericks and riddles, illustrated by Quentin Blake.\nBased on Roald Dahl's most famous characters you will be chortling away with Matilda, Charlie, George, The BFG, James and many more!\nRoald Dahl was full of fun and mischief, and LOVED all kinds of jokes- the sillier the better, like chocolate-covered chickens to grizzly, grouchy grandmas.\nThis side-splitting book includes his own 'knock-knock' jokes, keeping all practising jokesters amused for hours!\n",
+                "year_of_publication":"2012-09-06",
+                "isAvailable": true,
+                "count":1
+            }
+    },
+    {
+        "model":"book_service.book",
+        "pk":6,
+        "fields":{
+                "title": "The Last Lieutenant",
+                "author": "John J. Gobbell",
+                "description":"Powerful and engaging. Truly an inspiring and emotional story of bravery and sacrifice ... a must read.--Nelson DeMille, #1 NYT Bestselling Author\nThe year is 1942.\nBataan has fallen to the Japanese. The Philippines seem sure to follow. When a general surrenders the last American outpost in the West Pacific, Navy Lieutenant Todd Ingram refuses to give up the fight.\nTaking to sea under cover of darkness, he leads his ten man crew to accomplish the impossible....slip through Japanese naval blockades, travel 1900 miles to Australia, and singlehandedly stop a ruthless Nazi spy.\nThere are no reinforcements. There will be no rescue\n",
+                "year_of_publication":"2020-01-30",
+                "isAvailable": true,
+                "count":1
+            }
+    },
+    
+    {
+        "model":"book_service.book",
+        "pk":7,
+        "fields":{
+                "title": "Django for Beginners",
+                "author": " William S Vincent ",
+                "description":"Django for Beginners is a project-based introduction to Django, the popular Python-based web framework. Suitable for total beginners who have never built a website before as well as professional programmers looking for a fast-paced guide to modern web development and Django fundamentals.\nIn the book you'll learn how to: Build 5 websites from scratch, including a Blog and Newspaper websiteDeploy online using security best practicesCustomize the look and feel of your sitesWrite tests and run them for all your codeIntegrate user authentication, email, and custom user modelsAdd permissions and authorizations to make your app more secureIdentify common mistakes and errors so you can build your own websites\n",
+                "year_of_publication":"2020-08-10",
+                "isAvailable": true,
+                "count":6
+            }
+    },
+    {
+        "model":"book_service.book",
+        "pk":8,
+        "fields":{
+            "title":"Regretting You",
+            "author":"Colleen Hoover",
+            "description":"The #1 Wall Street Journal bestseller that People Magazine calls a poignant, addictive read.\nFrom #1 New York Times bestselling author of It Ends with Us comes a novel about family, first love, grief, and betrayal that will touch the hearts of both mothers and daughters.\nMorgan Grant and her sixteen-year-old daughter, Clara, would like nothing more than to be nothing alike.\nMorgan is determined to prevent her daughter from making the same mistakes she did. By getting pregnant and married way too young, Morgan put her own dreams on hold. Clara doesn't want to follow in her mother's footsteps. Her predictable mother doesn't have a spontaneous bone in her body.\n",
+            "year_of_publication":"2019-12-10",
+            "isAvailable":false,
+            "count":0
+        }
+    }
+]

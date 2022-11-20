@@ -1,0 +1,50 @@
+{%extends "base.html" %}
+{% load static %}
+{%block css%}
+<style>
+    .section{
+        display: inline-grid;
+        row-gap: 20px;
+        column-gap: 10px;
+        column-width:0.3vw;
+        grid-template-columns: auto auto auto;
+    }
+    .mytile{
+        border-bottom:5px solid black;
+        padding-bottom: 10px;
+    }
+</style>
+{%endblock%}
+
+
+
+{%block content%}
+<div class="section mt-20">
+    {%for book in books %}
+        <div class="tile mytile is-vertical is-10">
+           <div class="media">
+                <div class="media-left">
+                    <figure class="image mr-20 mb-20 is-128x128">
+                        <img src="{% static 'images/books/'%}{{book.title}}.jpg" alt="{{book.title}}">
+                        <figcaption>by {{book.author}}</figcaption>
+                    </figure>
+                </div>
+
+                <div class="media-content">
+                    <div class="content is-small">
+                    <h1 class="title is-5">{{book.title}}</h1>
+                    <p>{{book.description|slice:"0:100"}}...</p>
+                    <small><em>{{book.year_of_publication}}</em></small>
+                    
+                        {% if book.isAvailable%}
+                            <p><b>Available {{book.count}} Copies</b></p>
+                        {%else%}
+                            <p><b>Sorry no more on the shelf &#129335 </b></p>
+                        {%endif%}
+                    </div>
+                </div>
+            </div>
+        </div>
+    {%endfor%}
+</div>
+{%endblock%}

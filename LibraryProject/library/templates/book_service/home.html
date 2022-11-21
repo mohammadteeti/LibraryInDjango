@@ -1,11 +1,11 @@
 {%extends 'base.html'%}
 
 {%block content%}
-<div class="content has-text-centered is-size-1">
+<div class="content has-text-centered is-size-3">
     {% if user.is_active %}
-        <p>Welcom   {{user.username}}</p>
+        <p class="mt-5">Welcome   {{user.username}}</p>
     {%else%}
-      <p>Please Login to access dashboard</p>
+      <p class="mt-5">Please Login to access dashboard</p>
     {%endif%}
 </div>
 {%endblock%}

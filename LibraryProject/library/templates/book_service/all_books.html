@@ -13,19 +13,55 @@
         border-bottom:5px solid black;
         padding-bottom: 10px;
     }
+    .content{
+       margin: 20px;
+       margin-top: 0;
+    }
+    input::placeholder{
+        text-align: center;
+        opacity: 1;
+    }
+    input{
+        text-align: center;
+    }
+ 
+    form{
+        text-align: center;
+    }
+
 </style>
 {%endblock%}
 
 
 
 {%block content%}
+
+<div class="columns mt-2">
+    <div class="column is-full">
+        <div class="content has-text-centered">
+            <form method="post">
+                {%csrf_token%}
+                <label class="label">Search for a Book</label>
+                <div class="control">
+                    <input name="book_name" class="input" type="text" placeholder="what would you like to read?">
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+{%if books %} {%comment%}<!-- I can use {%empty%} in loop 
+but i need to have a centered text outside the section  -->{%endcomment%}
 <div class="section mt-20">
     {%for book in books %}
         <div class="tile mytile is-vertical is-10">
            <div class="media">
                 <div class="media-left">
                     <figure class="image mr-20 mb-20 is-128x128">
-                        <img src="{% static 'images/books/'%}{{book.title}}.jpg" alt="{{book.title}}">
+                        <a href="{% static 'images/books/'%}{{book.title}}.jpg" alt="Book Image" target="_self">
+                            <img src="{% static 'images/books/'%}{{book.title}}.jpg" alt="{{book.title}}">
+                        </a>
                         <figcaption>by {{book.author}}</figcaption>
                     </figure>
                 </div>
@@ -45,6 +81,14 @@
                 </div>
             </div>
         </div>
+        
+          
     {%endfor%}
+
 </div>
+{%else%}
+<div class="content is-full has-text-centered">
+    <p class="subtitle is-2">Oops! No Results Found</p>
+</div>
+{%endif%}
 {%endblock%}
